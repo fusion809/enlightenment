@@ -8,7 +8,7 @@ pkgdesc="Enlightenment window manager"
 arch=('i686' 'x86_64')
 url="http://www.enlightenment.org"
 license=('BSD')
-depends=('elementary' 'xcb-util-keysyms' 'hicolor-icon-theme' 'pixman' 'mesa'
+depends=('elementary>1.17.999' 'xcb-util-keysyms' 'hicolor-icon-theme' 'pixman' 'mesa'
          'desktop-file-utils' 'udisks2' 'ttf-font' 'bluez-libs')
 optdepends=('connman: network module'
             'acpid: power events on laptop lid close'
